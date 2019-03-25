@@ -1,0 +1,157 @@
+.container{
+    width: 1000px;
+    margin: auto auto;
+}
+
+.nav{
+    text-align: center;
+}
+
+a.m-item{
+    font-size:18px;
+    padding: 10px;
+    text-decoration: none;
+    color: coral;
+}
+a.m-item:hover{
+background-color: antiquewhite;
+}
+.hero-img{
+    position: relative;
+    background-image: url(/images/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.innerhero{
+    background-color: rgba(255, 145, 0, 0.445);
+    width: 450px;
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    color: aliceblue;
+    left: 10%;
+}
+.hero-img button{
+    background: rgba(179, 255, 0, 0.418);
+    border: 0px;
+    height: 35px;
+    width: 100px;
+    border-radius: 25px;
+}
+
+.aimg img{
+    height: 350px;
+    width: 450px;
+    float: left;
+}
+
+.atext{
+    width: 450px;
+    float: right;
+}
+.about{
+    text-align: center;
+}
+.about button, .work button {
+    background: rgb(234, 122, 114);
+    border: 0px;
+    height: 35px;
+    width: 100px;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+.work {
+    clear: both;
+    text-align: center;
+}
+.wtext {
+    width: 450px;
+    float: left;
+}
+
+.wimg img {
+    height: 315px;
+    width: 448px;
+}
+
+.featured{
+    text-align: center;
+    display: table-row;
+}
+
+.cards {
+    box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.50);
+    width: 300px;
+    height: 385px;
+    background: #ea7972;
+    color: white;
+}
+.cards img{
+    height: 200px;
+}
+
+.cards button {
+    border-radius: 30px;
+    background: #e7ffe1a3;
+    height: 37px;
+    color: black;
+}
+
+.featured {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.fh1{
+    text-align: center;
+}
+
+
+.clients img {
+    height: 148px;
+    background: #29262659;
+    border-radius: 60%;
+}
+
+.t-clients{
+    text-align: center;
+}
+.clients{
+display: flex;
+justify-content: space-around;
+ }
+
+ input[type="text"]{
+    width: 100%;
+    margin: 15px 0px;
+    height: 30px;
+}
+.c-form{
+    width: 450px;
+}
+
+textarea.form-textarea{
+    width: 100%;
+}
+input[type="button"] {
+    width: 100%;
+    background: #29a8e3;
+    border: 0px;
+    height: 32px;
+    border-radius: 28px;
+    margin: 20px 0px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    background: #ea7872;
+}
+
+.footer {
+    background: black;
+    color: white;
+    margin: 24px 0px;
+    padding: 28px 0px;
+    text-align: center;
+}
